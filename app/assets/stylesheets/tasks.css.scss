@@ -4,7 +4,7 @@
 div.task {
   width: 400px;
   height: 25px;
-  background-color:yellow;
+/*  background-color:yellow;*/
   margin-bottom: 10px;
   border:2px solid;
   border-radius:25px;
@@ -12,5 +12,12 @@ div.task {
   .actions {
 /*    border-left:solid gray;*/
     float: right;
+    padding-right: 10px;
   }
+}
+
+#tasks .handle { 
+  font-size: 24px; 
+  color: #777; 
+  cursor: pointer; 
 }

@@ -1,2 +1,3 @@
 $('div#tasks').append("<%=j render @task %>");
+$('div#<%= dom_id(@task) %>').effect('highlight');
 $('form.new_task')[0].reset();
